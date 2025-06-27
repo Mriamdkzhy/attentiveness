@@ -32,21 +32,21 @@ source venv/bin/activate
 The dataset was fully generated using ChatGPT-4o and contains three fields: the first is  an id, the second is a passage containing a key detail, and the third is a sentence that describes or summarizes that detail.
 
 ### Attentiveness.py
-A script that runs the Attentiveness metric and saves the data to a csv file.
+A script that runs the Attentiveness metric and saves the data to a csv file.  
 Run by:
 ```
 python3 attentiveness.py
 ```
 
 ### Attentiveness_mean_sd.py
-Provides a summary of the mean and standard deviation from attentiveness_mean_sd.py
+Provides a summary of the mean and standard deviation from attentiveness_mean_sd.py.  
 Run by:
 ```
 python3 attentiveness_mean_sd.py
 ```
 
 ### Attentiveness_boxplot.py
-Provides a boxplot of the score ranges from attentiveness_boxplot.py
+Provides a boxplot of the score ranges from attentiveness_boxplot.py.  
 Run by:
 ```
 python3 attentiveness_boxplot.py
